@@ -130,8 +130,12 @@ PlayerSettings:
   bundleVersion: 0.11
   preloadedAssets:
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: c3dcbe435573c8e4bbebd6b7472c7f04, type: 2}
   - {fileID: 1488403874280833974, guid: 4bd293e270327db47992e2af2a079276, type: 2}
+  - {fileID: 0}
+  - {fileID: -4841648947393760637, guid: 60ab921db9f499543be672e788a11b17, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -232,7 +236,7 @@ PlayerSettings:
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@5.0.4
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  useCustomMainManifest: 0
+  useCustomMainManifest: 1
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0

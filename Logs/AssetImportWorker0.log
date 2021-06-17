@@ -15,12 +15,12 @@ C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/Fores
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63043
+50024
 Successfully changed project path to: C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/Forest360Video
 C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/Forest360Video
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.96 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.63 ms.
+Refreshing native plugins compatible for Editor in 350.00 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.91 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Users/darry/Documents/Unity/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/Forest360Video/Assets
@@ -37,23 +37,23 @@ Initialize mono
 Mono path[0] = 'C:/Users/darry/Documents/Unity/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/darry/Documents/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/darry/Documents/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/darry/Documents/Unity/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001490 seconds.
+Registered in 0.093519 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.98 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 69.78 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
+- Completed reload, in  2.968 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006582 seconds.
+Registered in 0.282584 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.16 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 68.75 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -65,85 +65,50 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  2.853 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 12 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 3844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.7 MB.
+System memory in use before: 203.8 MB.
 System memory in use after: 203.6 MB.
 
 Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 4234.
-Total: 2.656200 ms (FindLiveObjects: 0.492400 ms CreateObjectMapping: 0.210300 ms MarkObjects: 1.777000 ms  DeleteObjects: 0.175800 ms)
+Total: 2.591900 ms (FindLiveObjects: 0.373200 ms CreateObjectMapping: 0.219200 ms MarkObjects: 1.795700 ms  DeleteObjects: 0.203200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/360 Content/Chief_Small.mp4
-  artifactKey: Guid(7630287c3a140a146b1b8cef9e2fcf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/360 Content/Chief_Small.mp4 using Guid(7630287c3a140a146b1b8cef9e2fcf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36d3d4c42ddc4b488ad08cc58c5de52') in 0.064362 seconds
-  Import took 0.069436 seconds .
+  path: Assets/3rdParty/AVProVideo
+  artifactKey: Guid(47313eace551d6642a2be8843633d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/AVProVideo using Guid(47313eace551d6642a2be8843633d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32db3856365400d807b0d6fc8bdc0da9') in 0.008366 seconds
+  Import took 0.013012 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 70.128075 seconds.
-  path: Assets/360 Content/River_Small.mp4
-  artifactKey: Guid(7b33e1a708fb07f48a0a3bf870d52ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/360 Content/River_Small.mp4 using Guid(7b33e1a708fb07f48a0a3bf870d52ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186bb7776729a0b8ba99e0b29f26941f') in 0.004841 seconds
-  Import took 0.009359 seconds .
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 21.33 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 102 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.475848 seconds.
-  path: Assets/360 Content/Watersprite_Small.mp4
-  artifactKey: Guid(27724b8b6a5e2a84089cdfe4d1233766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/360 Content/Watersprite_Small.mp4 using Guid(27724b8b6a5e2a84089cdfe4d1233766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1432e863c3654bfa405786201500b17') in 0.005523 seconds
-  Import took 0.010360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.443011 seconds.
-  path: Assets/360 Content/whiteRabbit3_Small.mp4
-  artifactKey: Guid(47253018a5404a542b88c21460d6c9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/360 Content/whiteRabbit3_Small.mp4 using Guid(47253018a5404a542b88c21460d6c9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f868f4f10349c9390684de9234aa7f5c') in 0.004720 seconds
-  Import took 0.009200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.946601 seconds.
-  path: Assets/360 Content/whiteRabbitMonoStill.jpg
-  artifactKey: Guid(f0114e0d63bb0904fa2e13da87325f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/360 Content/whiteRabbitMonoStill.jpg using Guid(f0114e0d63bb0904fa2e13da87325f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093d0e8cfe5bdfd99b8636c78d09509a') in 0.221985 seconds
-  Import took 0.226670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.454859 seconds.
-  path: Assets/360 Content/whiteRabbitMonoStill_dark.jpg
-  artifactKey: Guid(797070eb5d79b67498a1aa00bd231737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/360 Content/whiteRabbitMonoStill_dark.jpg using Guid(797070eb5d79b67498a1aa00bd231737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a442ef6d853373824db0a8db435572') in 0.142722 seconds
-  Import took 0.147196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.472685 seconds.
-  path: Assets/Texture/HomeSceneVidPlayerTest_RT.renderTexture
-  artifactKey: Guid(b0da527c25ed204468d13dbbe348ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/HomeSceneVidPlayerTest_RT.renderTexture using Guid(b0da527c25ed204468d13dbbe348ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600a6473133e67a9a6ce824bea59afd9') in 0.013784 seconds
-  Import took 0.019109 seconds .
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 4234.
+Total: 3.536900 ms (FindLiveObjects: 0.579300 ms CreateObjectMapping: 0.402900 ms MarkObjects: 2.359600 ms  DeleteObjects: 0.194300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006387 seconds.
+Registered in 0.005111 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\darry\Documents\Unity\Projects\PersonalProjects\Forest360Video_v1\Forest360Video\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\darry\Documents\Unity\Projects\PersonalProjects\Forest360Video_v1\Forest360Video\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -151,19 +116,32 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  0.823 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 3640 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.8 MB.
-System memory in use after: 197.8 MB.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3493 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.8 MB.
+System memory in use after: 183.0 MB.
 
-Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 4242.
-Total: 2.272700 ms (FindLiveObjects: 0.301700 ms CreateObjectMapping: 0.147100 ms MarkObjects: 1.659400 ms  DeleteObjects: 0.163400 ms)
+Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 4188.
+Total: 2.586900 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.285000 ms MarkObjects: 1.838200 ms  DeleteObjects: 0.096100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.81 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.3 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4188.
+Total: 2.417900 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.168500 ms MarkObjects: 1.805900 ms  DeleteObjects: 0.131800 ms)
+
