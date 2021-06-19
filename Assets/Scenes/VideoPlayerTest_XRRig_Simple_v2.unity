@@ -1097,14 +1097,14 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: /sdcard/Android/Videos/whiteRabbit7.mp4
+  m_Url: file://C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/360_HighQuality/river_4K.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 0
+  m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
 --- !u!114 &309292261
@@ -1133,6 +1133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentVideo: {fileID: 309292260}
+  questSDcardVideoName: river_4K.mp4
+  pcVideoPath: file://C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/360_HighQuality/river_4K.mp4
 --- !u!135 &309292263
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1512,21 +1514,21 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: file://C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/360_HighQuality/dougfir_4K.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 0
+  m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
 --- !u!114 &383285943
@@ -1555,6 +1557,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentVideo: {fileID: 383285942}
+  questSDcardVideoName: dougfir_4K.mp4
+  pcVideoPath: file://C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/360_HighQuality/dougfir_4K.mp4
 --- !u!135 &383285945
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4977,21 +4981,21 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: file://C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/360_HighQuality/chief_4K.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 0
+  m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
 --- !u!114 &1152966842
@@ -5007,6 +5011,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentVideo: {fileID: 1152966841}
+  questSDcardVideoName: chief_4K.mp4
+  pcVideoPath: file://C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/360_HighQuality/chief_4K.mp4
 --- !u!114 &1152966843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5592,21 +5598,21 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: file://C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/360_HighQuality/watersprite_4K.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 0
+  m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
 --- !u!114 &1261319210
@@ -5635,6 +5641,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentVideo: {fileID: 1261319209}
+  questSDcardVideoName: watersprite_4K.mp4
+  pcVideoPath: file://C:/Users/darry/Documents/Unity/Projects/PersonalProjects/Forest360Video_v1/360_HighQuality/watersprite_4K.mp4
 --- !u!135 &1261319212
 SphereCollider:
   m_ObjectHideFlags: 0

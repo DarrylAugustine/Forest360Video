@@ -2,43 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using System.IO;
+using TMPro;
 
 public class ActiveVideoScene : MonoBehaviour
 {
     public VideoPlayer currentVideo;
+    public string questSDcardVideoName;
+    public string pcVideoPath;
 
     // Start is called before the first frame update
     void Awake()
     {
-        currentVideo.Prepare();
+        //currentVideo.Prepare();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        /*if (Input.GetButtonUp("XRI_Right_PrimaryButton"))
+        var sdCardPath = $"/sdcard/Android/Videos/{questSDcardVideoName}";
+
+        if (File.Exists(sdCardPath))
         {
-
-            PlayVideo();
-
+        LoadVideo(sdCardPath);
+        
+            // debugText.text = "Found the file " + sdCardPath;
         }
-        if (Input.GetButtonUp("XRI_Right_SecondaryButton"))
+        else
         {
+        
+            LoadVideo(pcVideoPath);
+        }
 
-            PauseVideo();
-
-        }*/
     }
 
+    public void LoadVideo(string path)
+    {
+        currentVideo.url = path;
+        //currentVideo.Play();
+    }
     public void PlayVideo()
     {
         currentVideo.Play();
+
     }
 
     public void PauseVideo()
     {
         currentVideo.Pause();
     }
-    
-
 }
+
+       
+
+
