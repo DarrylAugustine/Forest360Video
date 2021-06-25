@@ -23,13 +23,11 @@ public class ActiveVideoScene : MonoBehaviour
 
         if (File.Exists(sdCardPath))
         {
-        LoadVideo(sdCardPath);
-        
-            // debugText.text = "Found the file " + sdCardPath;
+            LoadVideo(sdCardPath);
+                    
         }
         else
         {
-        
             LoadVideo(pcVideoPath);
         }
 

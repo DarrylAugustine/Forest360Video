@@ -26,7 +26,7 @@ public class TestVideoLoader : MonoBehaviour
     }
 
     
-    public void Retrieve()
+    /*public void Retrieve()
     {
         
         //getting the rooth path for the app that's installed
@@ -58,5 +58,5 @@ public class TestVideoLoader : MonoBehaviour
         videoPlayer.url = path;
         videoPlayer.Play();
     }
-
+    */
 }
