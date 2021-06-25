@@ -16,16 +16,20 @@ private  const float scaleFactor = .50f;
     private Vector3 startScale;
     private Color startTextColor;
     private Color startImageColor;
+    
+
     public Color textHoverColor;
     public Color buttonHoverColor;
+
+
     void Awake()
     {
         button = GetComponent<Button>();
         image = GetComponent<Image>();
-        text = GetComponentInChildren<TMP_Text>();
+        //text = GetComponentInChildren<TMP_Text>();
         startScale = transform.localScale;
         //startTextColor = text.color;
-        startImageColor = image.color;
+        startImageColor = image.material.color;
     }
     public void OnHoverStart()
     {
@@ -41,7 +45,7 @@ private  const float scaleFactor = .50f;
         transform.DOKill();
         transform.DOScale(startScale, hoverEndAnimationDuration);
         //text.DOColor(startTextColor, hoverEndAnimationDuration);
-        // image.DOColor(startImageColor, hoverEndAnimationDuration);
+        image.DOColor(startImageColor, hoverEndAnimationDuration);
     }
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -53,5 +57,6 @@ private  const float scaleFactor = .50f;
     }
     public void OnPointerClick(PointerEventData eventData)
     {
+        
     }
 }
