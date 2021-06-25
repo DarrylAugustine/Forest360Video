@@ -9,7 +9,7 @@ public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerE
 {
     private const float hoverStartAniamtionDuration = 0.2f;
     private const float hoverEndAnimationDuration = 0.1f;
-private  const float scaleFactor = .50f;
+    private  const float scaleFactor = .50f;
     private Button button;
     private Image image;
     private TMP_Text text;
@@ -27,6 +27,7 @@ private  const float scaleFactor = .50f;
         button = GetComponent<Button>();
         image = GetComponent<Image>();
         //text = GetComponentInChildren<TMP_Text>();
+        
         startScale = transform.localScale;
         //startTextColor = text.color;
         startImageColor = image.material.color;
