@@ -36,7 +36,8 @@ public class ActiveVideoScene : MonoBehaviour
     public void LoadVideo(string path)
     {
         currentVideo.url = path;
-        //currentVideo.Play();
+        currentVideo.Prepare();
+        
     }
     public void PlayVideo()
     {

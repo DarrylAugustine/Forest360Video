@@ -8,10 +8,13 @@ using UnityEngine.Events;
 public class Navigator : MonoBehaviour
 {
     public GameObject NavigateTo;
+    private VideoPlayer playingVideo;
 
-    
 
-    // Update is called once per frame
+    private void Awake()
+    {
+        
+    }
     void Update()
     {
         if (NavigateTo != null)
@@ -25,7 +28,8 @@ public class Navigator : MonoBehaviour
 
     public void Navigate()
     {
-        TourManager.Instance().NavigateTo(NavigateTo);
         
+        TourManager.Instance().NavigateTo(NavigateTo);
+        playingVideo.Stop();
     }
 }
