@@ -2115,6 +2115,9 @@ GameObject:
   - component: {fileID: 445106608}
   - component: {fileID: 445106607}
   - component: {fileID: 445106611}
+  - component: {fileID: 445106614}
+  - component: {fileID: 445106613}
+  - component: {fileID: 445106612}
   m_Layer: 5
   m_Name: PlayPauseCanvas2 (2)
   m_TagString: Untagged
@@ -2250,6 +2253,44 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &445106612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445106605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b790898e6c33bda40a056ca70eb6244e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoControlsCanvas: {fileID: 445106614}
+--- !u!65 &445106613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445106605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 900, y: 546.43, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!225 &445106614
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445106605}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &471920784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5184,6 +5225,9 @@ GameObject:
   - component: {fileID: 1092818421}
   - component: {fileID: 1092818420}
   - component: {fileID: 1092818424}
+  - component: {fileID: 1092818427}
+  - component: {fileID: 1092818426}
+  - component: {fileID: 1092818425}
   m_Layer: 5
   m_Name: PlayPauseCanvas2 (1)
   m_TagString: Untagged
@@ -5319,6 +5363,44 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!225 &1092818425
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092818418}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1092818426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092818418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b790898e6c33bda40a056ca70eb6244e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoControlsCanvas: {fileID: 1092818425}
+--- !u!65 &1092818427
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092818418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 900, y: 573.4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1096639421
 GameObject:
   m_ObjectHideFlags: 0
@@ -7965,7 +8047,10 @@ GameObject:
   - component: {fileID: 1576031750}
   - component: {fileID: 1576031749}
   - component: {fileID: 1576031748}
+  - component: {fileID: 1576031755}
   - component: {fileID: 1576031752}
+  - component: {fileID: 1576031754}
+  - component: {fileID: 1576031753}
   m_Layer: 5
   m_Name: PlayPauseCanvas2
   m_TagString: Untagged
@@ -8101,6 +8186,44 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!65 &1576031753
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576031746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 900, y: -620.6, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!225 &1576031754
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576031746}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1576031755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576031746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b790898e6c33bda40a056ca70eb6244e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoControlsCanvas: {fileID: 1576031754}
 --- !u!1 &1590849066
 GameObject:
   m_ObjectHideFlags: 0
