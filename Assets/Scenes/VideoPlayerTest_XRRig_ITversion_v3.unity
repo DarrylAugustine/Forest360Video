@@ -1868,8 +1868,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5078,7 +5078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4041714167debfb4f8087a8bbcc0f368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textHoverColor: {r: 0.9056604, g: 0.03844783, b: 0.03844783, a: 0}
+  textHoverColor: {r: 1, g: 1, b: 1, a: 1}
   buttonHoverColor: {r: 1, g: 0.9188481, b: 0, a: 0}
 --- !u!1001 &1054472621
 PrefabInstance:

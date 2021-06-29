@@ -8,6 +8,7 @@ using UnityEngine.EventSystems;
 public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     private const float hoverStartAniamtionDuration = 0.2f;
+    private const float texthoverStartAniamtionDuration = 0.4f;
     private const float hoverEndAnimationDuration = 0.1f;
     private  const float scaleFactor = .50f;
     private Button button;
@@ -26,10 +27,10 @@ public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerE
     {
         button = GetComponent<Button>();
         image = GetComponent<Image>();
-        //text = GetComponentInChildren<TMP_Text>();
+        text = GetComponentInChildren<TMP_Text>();
         
         startScale = transform.localScale;
-        //startTextColor = text.color;
+        startTextColor = text.color;
         startImageColor = image.material.color;
     }
     public void OnHoverStart()
@@ -37,7 +38,7 @@ public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerE
         // stop all animations
         transform.DOKill();
         transform.DOScale(scaleFactor, hoverStartAniamtionDuration);
-        //text.DOColor(textHoverColor, hoverStartAniamtionDuration);
+        text.DOColor(textHoverColor, hoverStartAniamtionDuration);
         //image.DOColor(buttonHoverColor, hoverStartAniamtionDuration);
     }
     public void OnHoverEnd()
@@ -45,7 +46,7 @@ public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerE
         // stop all animations
         transform.DOKill();
         transform.DOScale(startScale, hoverEndAnimationDuration);
-        //text.DOColor(startTextColor, hoverEndAnimationDuration);
+        text.DOColor(startTextColor, hoverEndAnimationDuration);
         image.DOColor(startImageColor, hoverEndAnimationDuration);
     }
     public void OnPointerEnter(PointerEventData eventData)
