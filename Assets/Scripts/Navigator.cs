@@ -30,6 +30,6 @@ public class Navigator : MonoBehaviour
     {
         
         TourManager.Instance().NavigateTo(NavigateTo);
-        playingVideo.Stop();
+        //playingVideo.Stop();
     }
 }

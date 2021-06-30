@@ -442,8 +442,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4041714167debfb4f8087a8bbcc0f368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textHoverColor: {r: 0, g: 0, b: 0, a: 0}
-  buttonHoverColor: {r: 0, g: 0, b: 0, a: 0}
+  textHoverColor: {r: 1, g: 1, b: 1, a: 1}
+  buttonHoverColor: {r: 0.9528302, g: 0.826513, b: 0, a: 1}
+  onClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 90037045}
+        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
+        m_MethodName: Navigate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &123980116 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5890529065630888824, guid: bb57c1e01794ba34cb07e4798e196cf8, type: 3}
@@ -2919,7 +2934,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  m_SmoothMovement: 0
+  m_SmoothMovement: 1
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
@@ -3103,67 +3118,7 @@ MonoBehaviour:
         m_CallState: 2
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1040312294}
-        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
-        m_MethodName: Navigate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 90037045}
-        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
-        m_MethodName: Navigate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1346306321}
-        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
-        m_MethodName: Navigate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1927671998}
-        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
-        m_MethodName: Navigate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1166068865}
-        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -3233,7 +3188,7 @@ MonoBehaviour:
   m_HitClosestOnly: 0
   m_KeepSelectedTargetValid: 1
   m_HoverToSelect: 1
-  m_HoverTimeToSelect: 0.5
+  m_HoverTimeToSelect: 0.1
   m_EnableUIInteraction: 1
   m_AllowAnchorControl: 1
   m_UseForceGrab: 1
@@ -4661,12 +4616,12 @@ MonoBehaviour:
     m_Name: Main Camera - TPD - Position
     m_Type: 0
     m_ExpectedControlType: Vector3
-    m_Id: 
+    m_Id: c23bcab8-0f17-4605-9875-d3facd6b6070
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: 
+      m_Id: 5087f6b6-af32-45b0-aae3-69dcc7c4dcf9
       m_Path: <XRHMD>/centerEyePosition
       m_Interactions: 
       m_Processors: 
@@ -4677,12 +4632,12 @@ MonoBehaviour:
     m_Name: Main Camera - TPD - Rotation
     m_Type: 0
     m_ExpectedControlType: Quaternion
-    m_Id: 
+    m_Id: eec03fda-cc4c-4a18-8946-d058e6a02b21
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: 
+      m_Id: 0c2ffc1a-5a95-46f1-b3a8-1f742ad1d7d9
       m_Path: <XRHMD>/centerEyeRotation
       m_Interactions: 
       m_Processors: 
@@ -4836,8 +4791,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5079,7 +5034,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textHoverColor: {r: 1, g: 1, b: 1, a: 1}
-  buttonHoverColor: {r: 1, g: 0.9188481, b: 0, a: 0}
+  buttonHoverColor: {r: 1, g: 0.9188481, b: 0, a: 1}
+  onClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1040312294}
+        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
+        m_MethodName: Navigate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1054472621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6497,8 +6467,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7250,8 +7220,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4041714167debfb4f8087a8bbcc0f368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textHoverColor: {r: 0, g: 0, b: 0, a: 0}
-  buttonHoverColor: {r: 0, g: 0, b: 0, a: 0}
+  textHoverColor: {r: 1, g: 1, b: 1, a: 1}
+  buttonHoverColor: {r: 1, g: 0.82046974, b: 0, a: 1}
+  onClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1346306321}
+        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
+        m_MethodName: Navigate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1348080729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4130551422565842460, guid: 0109d8d1cc1f67d41b7a72cbeb9d9463, type: 3}
@@ -8529,8 +8514,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9097,8 +9082,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4041714167debfb4f8087a8bbcc0f368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textHoverColor: {r: 0, g: 0, b: 0, a: 0}
-  buttonHoverColor: {r: 0, g: 0, b: 0, a: 0}
+  textHoverColor: {r: 1, g: 1, b: 1, a: 1}
+  buttonHoverColor: {r: 1, g: 0.89338535, b: 0, a: 1}
+  onClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1927671998}
+        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
+        m_MethodName: Navigate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1927672000
 MonoBehaviour:
   m_ObjectHideFlags: 0

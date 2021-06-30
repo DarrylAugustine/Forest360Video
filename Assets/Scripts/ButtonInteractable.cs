@@ -5,11 +5,12 @@ using UnityEngine.UI;
 using TMPro;
 using DG.Tweening;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
 public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     private const float hoverStartAniamtionDuration = 0.2f;
-    private const float texthoverStartAniamtionDuration = 0.4f;
-    private const float hoverEndAnimationDuration = 0.1f;
+    // private const float texthoverStartAniamtionDuration = 0.4f;
+    private const float hoverEndAnimationDuration = 0.05f;
     private  const float scaleFactor = .50f;
     private Button button;
     private Image image;
@@ -21,6 +22,8 @@ public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerE
 
     public Color textHoverColor;
     public Color buttonHoverColor;
+    public UnityEvent onClick; 
+
 
 
     void Awake()
@@ -33,22 +36,6 @@ public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerE
         startTextColor = text.color;
         startImageColor = image.material.color;
     }
-    public void OnHoverStart()
-    {
-        // stop all animations
-        transform.DOKill();
-        transform.DOScale(scaleFactor, hoverStartAniamtionDuration);
-        text.DOColor(textHoverColor, hoverStartAniamtionDuration);
-        //image.DOColor(buttonHoverColor, hoverStartAniamtionDuration);
-    }
-    public void OnHoverEnd()
-    {
-        // stop all animations
-        transform.DOKill();
-        transform.DOScale(startScale, hoverEndAnimationDuration);
-        text.DOColor(startTextColor, hoverEndAnimationDuration);
-        image.DOColor(startImageColor, hoverEndAnimationDuration);
-    }
     public void OnPointerEnter(PointerEventData eventData)
     {
         OnHoverStart();
@@ -59,6 +46,22 @@ public class ButtonInteractable : MonoBehaviour, IPointerEnterHandler, IPointerE
     }
     public void OnPointerClick(PointerEventData eventData)
     {
-        
+        onClick?.Invoke();
+    }
+    public void OnHoverStart()
+    {
+        // stop all animations
+        transform.DOKill();
+        transform.DOScale(scaleFactor, hoverStartAniamtionDuration);
+        text.DOColor(textHoverColor, hoverStartAniamtionDuration);
+        image.DOColor(buttonHoverColor, hoverStartAniamtionDuration);
+    }
+    public void OnHoverEnd()
+    {
+        // stop all animations
+        transform.DOKill();
+        transform.DOScale(startScale, hoverEndAnimationDuration);
+        text.DOColor(startTextColor, hoverEndAnimationDuration);
+        image.DOColor(startImageColor, hoverEndAnimationDuration);
     }
 }
